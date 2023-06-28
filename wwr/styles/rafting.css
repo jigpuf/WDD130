@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Tsukimi+Rounded&display=swap');
+
+:root {
+    --primary-color: #9BB291;
+    --secondary-color: #0057A3;
+    --accent1-color: #dce5dd;
+    --accent2-color: #ebf4f1;
+
+    --heading-font: 'Lilita One', cursive;
+    --paragraph-font: 'Tsukimi Rounded', sans-serif;
+
+    --nav-background-color: white;
+    --nav-link-color: blue;
+    --nav-hover-link-color: lightblue;
+    --nav-hover-background-color: white;
+}
+h1, h2{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color)
+}
+body{
+    background-color: var(--primary-color);
+    width: 1000px
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block; 
+    width: 100%;
+    height: auto;
+}
+h1{
+    position: absolute;
+    top: 30px;
+    left:200px;
+    display:inline-block;
+}
+article{
+    position: absolute;
+    top: 90px;
+    left:100px;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.642);
+}
+#smile{
+    float:right;
+    height:180px;
+    width:auto;
+}
+article p{
+    float:left;
+}
