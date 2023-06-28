@@ -53,4 +53,5 @@ article{
 }
 article p{
     float:left;
+    text-decoration: none;
 }
